@@ -170,6 +170,7 @@ exports.config = {
         tagExpression: '',
         // <number> timeout for step definitions
         timeout: 60000,
+        ignoreUndefinedDefinitions: true,
         // <boolean> Enable this config to treat undefined definitions as warnings.
         ignoreUndefinedDefinitions: false
     },
